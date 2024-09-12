@@ -20,17 +20,24 @@ Para comenzar con el proyecto, necesitas tener Java instalado en tu sistema. Ase
 
 1. **Compila el código**:
    ```
-   & 'C:\Program Files\Java\jdk-1.8\bin\java.exe' '-cp' 'C:\Users\jose.vasquez-v.LABINFO\Downloads\proyectoArepParcial\target\classes' 'edu.escuelaing.arep.ServerHTTPfachada'
-    ```
+    java -cp bin edu.escuelaing.arep.CalculatorReflexServer
 
    ```
-    & 'C:\Program Files\Java\jdk-1.8\bin\java.exe' '-cp' 'C:\Users\jose.vasquez-v.LABINFO\Downloads\proyectoArepParcial\target\classes' 'edu.escuelaing.arep.CalculatorReflexServer'
+
+   ```
+    java -cp bin edu.escuelaing.arep.ServerHTTPfachada
+    
     ```
 
 
 #### El proyecto corre por el siguiente enlace
 
-http://localhost:36000/
+http://localhost:36001/calculate
+
+
+![alt text](images/image.png)
+
+![alt text](images/imagepi.png)
 
 
 
